@@ -481,10 +481,10 @@ form .btn2 {
 @media screen and (max-width: 768px) {
   #header {
     background-image: url('/images/untitleddesign1.png'); /* Different image for small screens */
-    background-attachment: scroll;
+    
     background-position: center;
     background-size: cover;
-     /* background-attachment: fixed; */
+     background-attachment: fixed;
   }
 
   .container {
