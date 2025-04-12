@@ -601,9 +601,22 @@ form .btn2 {
 }
 
 @media screen and (max-width: 480px) {
+
+  #header {
+    background-image: url('/images/Untitleddesign1.png'); /* Different image for small screens */
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+     background-attachment: fixed;
+  }
+
+  .container {
+    padding: 10px 5%;
+  }
+
   /* Header */
   .header-text {
-    margin-top: 70%; /* Even higher on very small screens */
+    margin-top: 41%; /* Even higher on very small screens */
     font-size: 16px;
   }
   
